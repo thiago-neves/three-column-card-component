@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-column card component solution
+# Frontend Mentor - 3-column card component
 
 This is a solution to the [3-column card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
 
@@ -24,4 +24,4 @@ Users should be able to:
 ![](./design/desktop-preview.jpg)
 
 ### Links
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://thiago-neves.github.io/three-column-card-component/)
