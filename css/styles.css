@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: hsl(0, 0%, 95%);
+}
+
+.content {
+	display: flex;
+}
+
+.card {
+	max-width: 250px;
+	padding: 50px;
+}
+
+.title {
+	font-family: 'Big Shoulders Display', cursive;
+	text-transform: uppercase;
+	color: hsl(0, 0%, 95%);
+	font-size: 2.4em;
+}
+
+.bright-orange-bg {
+	background-color:hsl(31, 77%, 52%);
+}
+
+.dark-cyan-bg {
+	background-color:hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan-bg {
+	background-color: hsl(179, 100%, 13%);
+}
+
+.paragraph {
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button {
+	background-color: hsl(0, 0%, 95%);
+	border: 2px solid hsl(0, 0%, 95%);
+	border-radius: 25px;
+	padding: 15px 40px;
+	font-size: 1em;
+	cursor: pointer;
+	margin-top: 70px;
+}
+
+.button:hover {
+	background-color: transparent;
+}
+
+.bright-orange {
+	color:hsl(31, 77%, 52%);
+}
+
+.dark-cyan {
+	color:hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan {
+	color: hsl(179, 100%, 13%);
+}
+
+.bright-orange:hover, .dark-cyan:hover, .very-dark-cyan:hover {
+	color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 768px) {
+	.content {
+		flex-direction: column;
+	}
+}
